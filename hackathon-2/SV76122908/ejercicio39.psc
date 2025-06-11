@@ -4,21 +4,21 @@
 
 Proceso ejercicio39
     Definir n Como Entero
-    Definir pi Como Real
+    Definir p Como Real
     Definir i Como Entero
-
+	
     Escribir "Ingrese el número de términos para la aproximación de pi:"
     Leer n
- 
-    pi <- 0.0
-
+	
+    p <- 0.0
+	
     Para i <- 0 Hasta n - 1 Con Paso 1 Hacer
         Si i % 2 = 0 Entonces
-            pi <- pi + (4.0 / (2 * i + 1))
+            p <- p + (4.0 / (2 * i + 1))
         Sino
-            pi <- pi - (4.0 / (2 * i + 1))
+            p <- p - (4.0 / (2 * i + 1))
         FinSi
     Fin Para
-
-    Escribir "La aproximación de pi con ", n, " términos es: ", pi
+	
+    Escribir "La aproximación de pi con ", n, " términos es: ", p
 Fin Proceso
