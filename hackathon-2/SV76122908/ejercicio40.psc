@@ -6,7 +6,7 @@ Proceso ejercicio40
     Definir n Como Entero
     Definir pi Como Real
     Definir i Como Entero
-
+ 
     Escribir "Ingrese el número de términos para la aproximación de pi:"
     Leer n
 
@@ -21,3 +21,4 @@ Proceso ejercicio40
     Fin Para
 
     Escribir "La aproximación de pi con ", n, " términos es: ", pi
+Fin Proceso

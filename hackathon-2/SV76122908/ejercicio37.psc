@@ -9,10 +9,9 @@ Proceso ejercicio37
 
     Escribir "Ingrese el segundo número:"
     Leer b
-
+ 
     Si a < 0 O b < 0 Entonces
         Escribir "El M.C.D no está definido para números negativos."
-        Fin Proceso
     FinSi
 
     Mientras b <> 0 Hacer
@@ -22,3 +21,5 @@ Proceso ejercicio37
     Fin Mientras
 
     Escribir "El M.C.D es: ", a
+
+Fin Proceso

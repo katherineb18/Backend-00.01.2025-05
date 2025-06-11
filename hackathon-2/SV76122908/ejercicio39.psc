@@ -9,7 +9,7 @@ Proceso ejercicio39
 
     Escribir "Ingrese el número de términos para la aproximación de pi:"
     Leer n
-
+ 
     pi <- 0.0
 
     Para i <- 0 Hasta n - 1 Con Paso 1 Hacer
@@ -21,3 +21,4 @@ Proceso ejercicio39
     Fin Para
 
     Escribir "La aproximación de pi con ", n, " términos es: ", pi
+Fin Proceso
