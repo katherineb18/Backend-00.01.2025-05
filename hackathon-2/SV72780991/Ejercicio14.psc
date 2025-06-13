@@ -1,8 +1,5 @@
 // Hacer un algoritmo en Pseint que lea un entero positivo del 1 al diez y determine si es un número primo.
 
-// Hacer un algoritmo en Pseint que lea tres números y diga cuál es el mayor.
-// usando bubble sort
-
 Algoritmo NumPrimo
 	
     Definir num, i Como Entero
