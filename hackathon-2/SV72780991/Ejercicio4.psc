@@ -1,53 +1,38 @@
 //4. Hacer un algoritmo en Pseint que lea tres números enteros y los muestre de menor a mayor.
+// usando bubble sort
 
 Proceso menorMayor
 	
-    Definir a,b,c,menor,medio, mayor Como Entero
+    Definir a, b, c, aux Como Entero
 	
-    Escribir "Ingrese el primero numero";
+    Escribir "Ingrese el primer número:"
     Leer a
-    Escribir "Ingrese el segundo numero";
+    Escribir "Ingrese el segundo número:"
     Leer b
-    Escribir "Ingrese el tercer numero";
+    Escribir "Ingrese el tercer número:"
     Leer c
 	
-    Si a <=b y a <=c Entonces
-        menor <-a
-        
-        Si b<= c Entonces
-            medio <- b
-            mayor <- c
-        sino
-            medio <- c
-            mayor <- b
-        FinSi
-		
-    Sino 
-        Si b<=a y b <=c Entonces
-            menor <- b
-            
-            Si a<=c Entonces
-                medio<- a
-                mayor <- c
-            Sino
-				medio<- c
-                mayor <- a
-				
-            FinSi
-			
-        Sino
-			menor <- c
-			Si a<=b Entonces
-				medio <-a
-				mayor <- b
-			Sino
-				medio <-b
-				mayor <- a
-			FinSi
-			
-		FinSi
-	FinSi
+    // Paso 1
+    Si a > b Entonces
+        aux <- a
+        a <- b
+        b <- aux
+    FinSi
 	
-		Escribir "Numero Ordernado de menor  a mayor: ", menor, ", ",medio, ", ",mayor
-		
+    // Paso 2
+    Si a > c Entonces
+        aux <- a
+        a <- c
+        c <- aux
+    FinSi
+	
+    // Paso 3
+    Si b > c Entonces
+        aux <- b
+        b <- c
+        c <- aux
+    FinSi
+	
+    Escribir "Números ordenados de menor a mayor: ", a, ", ", b, ", ", c
+	
 FinProceso
