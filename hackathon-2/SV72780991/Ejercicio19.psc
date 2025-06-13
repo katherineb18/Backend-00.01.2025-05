@@ -14,10 +14,10 @@ Algoritmo PagoEmpleadoHeladeria
 	Definir salarioDiario, pagoTotal Como Real
 	
 	Escribir "Ingrese el número identificador del empleado:"
-	Escribir "1 - Cajero"
-	Escribir "2 - Servidor"
-	Escribir "3 - Preparador de mezclas"
-	Escribir "4 - Mantenimiento"
+	Escribir "1 - Cajero (56$/día)"
+	Escribir "2 - Servidor (64$/día)"
+	Escribir "3 - Preparador de mezclas (80$/día)"
+	Escribir "4 - Mantenimiento (48$/día)"
 	Leer idEmpleado
 	
 	Mientras idEmpleado < 1 o idEmpleado > 4
@@ -32,12 +32,16 @@ Algoritmo PagoEmpleadoHeladeria
 	Segun idEmpleado Hacer
 		Caso 1:
 			salarioDiario = 56
+			
 		Caso 2:
 			salarioDiario = 64
+			
 		Caso 3:
 			salarioDiario = 80
+			
 		Caso 4:
 			salarioDiario = 48
+			
 	FinSegun
 	
 	pagoTotal = salarioDiario * diasTrabajados
