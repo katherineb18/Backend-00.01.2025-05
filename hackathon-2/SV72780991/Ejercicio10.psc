@@ -1,0 +1,1 @@
+// Hacer un algoritmo en Pseint que diga si un número es par o impar.
