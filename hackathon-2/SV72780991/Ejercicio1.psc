@@ -12,3 +12,4 @@ Proceso determinaNumero
 		Escribir "El numero no tiene 3 d�gitos" 
 	FinSi
 FinProceso
+
