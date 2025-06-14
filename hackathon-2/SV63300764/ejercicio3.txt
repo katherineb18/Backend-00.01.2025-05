@@ -1,0 +1,12 @@
+Algoritmo terminaEn4
+	Definir a Como Entero
+	Escribir "Ingrese el numero:"
+	leer a
+	si a mod 10 = 4
+		Escribir "El numero termina en 4"
+	SiNo
+		Escribir "El numero no termina en 4"
+	FinSi
+	
+	
+FinAlgoritmo

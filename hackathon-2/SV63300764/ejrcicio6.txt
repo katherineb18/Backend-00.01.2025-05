@@ -1,0 +1,16 @@
+Algoritmo sueldo 
+	Definir su,ho,he Como Entero
+	Escribir "Horas trabajadas: "
+	Leer ho
+	si ho <= 40 
+		su = ho * 20
+	SiNo
+		he = ho - 40
+		su = (40 * 20) + (he * 25)
+		
+	FinSi
+	
+	Escribir "tu sueldo es :" su 
+	
+	
+FinAlgoritmo
