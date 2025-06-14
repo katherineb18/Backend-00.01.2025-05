@@ -6,7 +6,7 @@ Algoritmo VentaCDs
 	Escribir "Ingrese la cantidad de CDs a vender:"
 	Leer cantidad
 
-	// Determinar precio unitario según la cantidad
+	
 	Si cantidad >= 1 Y cantidad <= 9 Entonces
 		precioUnitario <- 10
 	SiNo
