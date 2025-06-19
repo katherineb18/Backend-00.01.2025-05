@@ -30,7 +30,7 @@ Algoritmo calcularDescuentoMembresia
 			descuento = 20
 	FinSegun
 	
-	Escribir "SubTotal: S./ ", monto
-	Escribir "Descuento por membresía (- ", descuento," %): S./ ", (monto * descuento) / 100
-	Escribir "Total a pagar: S./ ", monto - (monto * descuento) / 100
+	Escribir "SubTotal: S/. ", monto
+	Escribir "Descuento por membresía (-", descuento,"%): S/. ", (monto * descuento) / 100
+	Escribir "Total a pagar: S/. ", monto - (monto * descuento) / 100
 FinAlgoritmo

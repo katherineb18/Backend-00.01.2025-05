@@ -20,9 +20,9 @@ Algoritmo serieAproximacionNilakantha
         termino = 4 / (i * (i + 1) * (i + 2))
         
         Si s = 1 Entonces
-            Escribir "+ 4 / (", i, " * ", (i+1), " * ", (i+2), ") = ", s * termino
+            Escribir "+ 4 / (", i, " * ", i + 1, " * ", i + 2, ") = ", s * termino
         Sino
-            Escribir "- 4 / (", i, " * ", (i+1), " * ", (i+2), ") = ", s * termino
+            Escribir "- 4 / (", i, " * ", i + 1, " * ", i + 2, ") = ", s * termino
         FinSi
         
         p = p + s * termino

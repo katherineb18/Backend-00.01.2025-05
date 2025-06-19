@@ -32,7 +32,7 @@ Algoritmo tiendaZapatos
 		totalPagar = totalOriginal - descuento
 	FinSi
 	
-	Escribir "Cantidad comprada: $ ", cantidadZapatos
+	Escribir "Cantidad comprada: ", cantidadZapatos
 	Escribir "Total totalOriginal: $ ",totalOriginal
 	Escribir "Descuento: $ ", descuento
 	Escribir "Total a pagar: $ ",totalPagar 
