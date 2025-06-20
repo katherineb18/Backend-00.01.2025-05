@@ -1,0 +1,1 @@
+//12. Hacer un algoritmo en JavaScript que lea dos números y diga cuál es el mayor.
