@@ -1,0 +1,1 @@
+//Hacer un algoritmo para calcular el resto y cociente por medio de restas sucesivas.
