@@ -1,7 +1,7 @@
 // 8. Hacer un algoritmo en Pseint para calcular el promedio de tres notas y determinar si el estudiante aprobó o no.
 
 Algoritmo verificarAprobacion
-	Definir nota1, nota2, note3, promedio Como Entero
+	Definir nota1, nota2, nota3, promedio Como Real
 
 	Escribir "Ingrese nota 1: "
 	Leer nota1
@@ -14,6 +14,8 @@ Algoritmo verificarAprobacion
 
 	promedio = (nota1 + nota2 + nota3) / 3
 	
+	Escribir "Promedio: ", promedio
+
 	Si promedio > 10 Entonces
 		Escribir "El estudiante aprobó"
 	SiNo

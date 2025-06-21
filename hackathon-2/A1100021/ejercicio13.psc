@@ -6,7 +6,7 @@ Algoritmo verificarVocal
 	Escribir "Ingrese una letra a verificar: "
 	Leer letra
 
-	Si vocal = 'a' o letra = 'e' o letra = 'i' o letra = 'o' o letra = 'a' o letra = 'u' Entonces
+	Si letra = 'a' o letra = 'e' o letra = 'i' o letra = 'o' o letra = 'u' Entonces
 		Escribir "La letra ", letra, " es vocal"
 	SiNo
 		Escribir "La letra ", letra, " no es vocal"
