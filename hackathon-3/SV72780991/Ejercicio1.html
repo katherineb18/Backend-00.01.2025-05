@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicio 1 - Tres Dígitos</title>
+</head>
+<body>
+  <h2>¿El número tiene tres dígitos?</h2>
+  <input type="number" id="numero" placeholder="Ingresa un número">
+  <button onclick="verificarTresDigitos()">Verificar</button>
+  <p id="resultado"></p>
+
+  <script>
+    function verificarTresDigitos() {
+      const numero = parseInt(document.getElementById("numero").value);
+      const resultado = document.getElementById("resultado");
+
+      if (isNaN(numero)) {
+        resultado.textContent = "Por favor, ingresa un número válido.";
+        return;
+      }
+
+      const tieneTresDigitos = (Math.abs(numero) >= 100 && Math.abs(numero) <= 999);
+
+      if (tieneTresDigitos) {
+        resultado.textContent = `Sí, el número ${numero} tiene tres dígitos.`;
+      } else {
+        resultado.textContent = `No, el número ${numero} no tiene tres dígitos.`;
+      }
+    }
+  </script>
+</body>
+</html>
